@@ -4,8 +4,9 @@
 # Theia IDE
 .theia/
 
-# clangd index cache
+# clangd index cache (directory and file)
 .clangd/
+.clangd
 
 # Build outputs - Debug directory
 Debug/
@@ -26,3 +27,6 @@ compile_commands.json
 
 # Theia launch config
 launch.json
+
+# Temporary files
+Untitled.txt
