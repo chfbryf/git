@@ -1,0 +1,148 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "uart",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "uart",
+                "resourceId": "/uart"
+            },
+            "connections": [
+                {
+                    "name": "SEGGER J-Link Emulator_0",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Car",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Car",
+                "resourceId": "/Car"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mspm0-modules",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "mspm0-modules",
+                "resourceId": "/mspm0-modules"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "mpu6050-oled-hardware-i2c",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "mpu6050-oled-hardware-i2c",
+                "resourceId": "/mpu6050-oled-hardware-i2c"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "xunji_demo",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "xunji_demo",
+                "resourceId": "/xunji_demo"
+            },
+            "connections": [
+                {
+                    "name": "SEGGER J-Link Emulator_0",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "step_motor",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "step_motor",
+                "resourceId": "/step_motor"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "SEGGER J-Link Emulator_0",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
