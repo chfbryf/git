@@ -1,0 +1,28 @@
+# IDE settings
+.settings/
+
+# Theia IDE
+.theia/
+
+# clangd index cache
+.clangd/
+
+# Build outputs - Debug directory
+Debug/
+
+# Compiled objects
+*.o
+*.d
+*.out
+*.map
+
+# IDE build artifacts
+*.opt
+*.genlibs
+*.mk
+*.xml
+Event.dot
+compile_commands.json
+
+# Theia launch config
+launch.json
